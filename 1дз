@@ -1,0 +1,59 @@
+# 1 задание
+name = "Полина"
+print(name)
+# 2 задание
+my_age = 17
+print("Мне",my_age,"лет")
+# 3 задание
+my_name = "Полина" * 5
+print(my_name)
+# 4 задание
+username = input("Введите ваше имя : ")
+userage = int(input("Введите ваш возраст : "))
+print("Здравствуйте,",username,", Вы хорошо сохранились")
+# 5 задание
+
+
+
+# задание6
+name = input("Ваше имя?")
+list(name)
+print(name[::-1])
+print(name[1:-1])
+print(name[len(name) - 3:])
+print(name[0:4])
+
+# задание8
+name = input("Ваше имя?")
+print(name.upper())
+print(name.lower())
+
+# задание10
+def ex(a):
+    try:
+        a = int(a)
+    except ValueError:
+        a = input("Вам нужно ввести численное значение! - ")
+        return ex(a)
+    if int(a) == (2 * 2 + 2):
+        print("Правильно!")
+    else:
+        print("Неравильно!")
+        a = input("Попробуйте еще раз - ")
+        return ex(a)
+
+a = input("Привет! Сколько будет 2*2+2 ?")
+ex(a)
+
+a = input("Привет! Сколько будет 2*2+2 ?")
+
+try:
+    a = int(a)
+except ValueError:
+    a = input("Вам нужно ввести численное значение! - ")
+
+if int(a) == (2 * 2 + 2):
+    print("Правильно!")
+else:
+    print("Неравильно!")
+
