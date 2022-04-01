@@ -1,19 +1,30 @@
 # 1 задание
 name = "Полина"
 print(name)
+
 # 2 задание
 my_age = 17
 print("Мне",my_age,"лет")
+
 # 3 задание
 my_name = "Полина" * 5
 print(my_name)
+
 # 4 задание
 username = input("Введите ваше имя : ")
 userage = int(input("Введите ваш возраст : "))
 print("Здравствуйте,",username,", Вы хорошо сохранились")
+
 # 5 задание
-
-
+chel_name =input("Ваш возраст : ")
+if chel_name < 18 :
+    print("Наслаждайся школой")
+elif 18 <= chel_name <= 30
+    print("Ты уже нашел работу?")
+elif 30 <= chel_name <= 50
+    print("А что насчет детей?)
+elif 50 <= chel_name <= 80
+    print("Сколько внуков?")
 
 # задание6
 name = input("Ваше имя?")
