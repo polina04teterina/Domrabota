@@ -34,10 +34,32 @@ print(name[1:-1])
 print(name[len(name) - 3:])
 print(name[0:4])
 
+
+# задание7
+print('Кол-во букв в имени: ' + str(len(userName)))
+import math
+ageNum1 = math.floor(userAge / 10)
+ageNum2 = userAge % 10
+sum = ageNum1 + ageNum2
+print('Сумма цифр возраста: ' + str(sum))
+if ageNum1 < 1:
+    comp = ageNum2
+else:
+    comp = ageNum1 * ageNum2
+print('Произведение цифр возраста: ' + str(comp))
+
+
 # задание8
 name = input("Ваше имя?")
 print(name.upper())
 print(name.lower())
+
+# задание9
+if " " in userName:
+    print('Error userName value')
+if (userAge < 0) or (userAge > 150):
+    print('Error userAge value')
+
 
 # задание10
 def ex(a):
